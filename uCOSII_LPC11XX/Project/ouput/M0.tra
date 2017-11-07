@@ -1,0 +1,35 @@
+*** Creating Trace Output File '.\ouput\M0.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\ouput\startup_lpc11xx.o"'
+### List of Objects: adding '".\ouput\core_cm0.o"'
+### List of Objects: adding '".\ouput\system_lpc11xx.o"'
+### List of Objects: adding '".\ouput\os_core.o"'
+### List of Objects: adding '".\ouput\os_flag.o"'
+### List of Objects: adding '".\ouput\os_mbox.o"'
+### List of Objects: adding '".\ouput\os_mem.o"'
+### List of Objects: adding '".\ouput\os_mutex.o"'
+### List of Objects: adding '".\ouput\os_q.o"'
+### List of Objects: adding '".\ouput\os_sem.o"'
+### List of Objects: adding '".\ouput\os_task.o"'
+### List of Objects: adding '".\ouput\os_time.o"'
+### List of Objects: adding '".\ouput\os_cpu_c.o"'
+### List of Objects: adding '".\ouput\main.o"'
+### List of Objects: adding '".\ouput\irq.o"'
+### List of Objects: adding '".\ouput\uart.o"'
+### List of Objects: adding '".\ouput\cmd_process.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\ouput\startup_lpc11xx.o" ".\ouput\core_cm0.o" ".\ouput\system_lpc11xx.o" ".\ouput\os_core.o" ".\ouput\os_flag.o" ".\ouput\os_mbox.o" ".\ouput\os_mem.o" ".\ouput\os_mutex.o" ".\ouput\os_q.o" ".\ouput\os_sem.o" ".\ouput\os_task.o" ".\ouput\os_time.o" ".\ouput\os_cpu_c.o" ".\ouput\main.o" ".\ouput\irq.o" ".\ouput\uart.o" ".\ouput\cmd_process.o" --library_type=microlib --strict --scatter ".\ouput\M0.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\M0.map" -o ".\ouput\M0.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\ouput\M0.axf'
+### ADS-LD Command File: '.\ouput\M0.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\ouput\M0.lnp', Handle=0x00000234
+### Writing '.lnp' file
+### ADS-LD Command file '.\ouput\M0.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

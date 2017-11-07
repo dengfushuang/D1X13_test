@@ -1,0 +1,24 @@
+--cpu Cortex-M0
+".\ouput\startup_lpc11xx.o"
+".\ouput\core_cm0.o"
+".\ouput\system_lpc11xx.o"
+".\ouput\os_core.o"
+".\ouput\os_flag.o"
+".\ouput\os_mbox.o"
+".\ouput\os_mem.o"
+".\ouput\os_mutex.o"
+".\ouput\os_q.o"
+".\ouput\os_sem.o"
+".\ouput\os_task.o"
+".\ouput\os_time.o"
+".\ouput\os_cpu_c.o"
+".\ouput\main.o"
+".\ouput\irq.o"
+".\ouput\nxplpc11xx.o"
+".\ouput\uart.o"
+".\ouput\e2prom.o"
+".\ouput\cmd_processbpk.o"
+--library_type=microlib --strict --scatter ".\ouput\M0.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\list\M0.map" -o .\ouput\M0.axf

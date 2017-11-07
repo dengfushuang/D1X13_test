@@ -1,0 +1,132 @@
+Dependencies for Project 'M0', Target 'FLASH': (DO NOT MODIFY !)
+F (.\startup_LPC11xx.s)(0x4CF70C9C)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"--list .\list\startup_lpc11xx.lst --xref -o .\ouput\startup_lpc11xx.o --depend .\ouput\startup_lpc11xx.d)
+F (..\common\src\core_cm0.c)(0x49DD98EE)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\core_cm0.o --omf_browse .\ouput\core_cm0.crf --depend .\ouput\core_cm0.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+F (..\common\src\system_LPC11xx.c)(0x581308FE)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\system_lpc11xx.o --omf_browse .\ouput\system_lpc11xx.crf --depend .\ouput\system_lpc11xx.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x5209A7DA)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x5209A7DA)
+F (..\uCOSII\OS_CORE.C)(0x3C51603A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_core.o --omf_browse .\ouput\os_core.crf --depend .\ouput\os_core.d)
+I (..\uCOSII\includes.h)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\OS_FLAG.C)(0x3C6A4F80)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_flag.o --omf_browse .\ouput\os_flag.crf --depend .\ouput\os_flag.d)
+I (..\uCOSII\INCLUDES.H)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\OS_MBOX.C)(0x3C51603A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_mbox.o --omf_browse .\ouput\os_mbox.crf --depend .\ouput\os_mbox.d)
+I (..\uCOSII\includes.h)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\OS_MEM.C)(0x3C6E1D08)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_mem.o --omf_browse .\ouput\os_mem.crf --depend .\ouput\os_mem.d)
+I (..\uCOSII\includes.h)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\OS_MUTEX.C)(0x3C51603A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_mutex.o --omf_browse .\ouput\os_mutex.crf --depend .\ouput\os_mutex.d)
+I (..\uCOSII\includes.h)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\OS_Q.C)(0x3C6A509A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_q.o --omf_browse .\ouput\os_q.crf --depend .\ouput\os_q.d)
+I (..\uCOSII\includes.h)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\OS_SEM.C)(0x3C51603C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_sem.o --omf_browse .\ouput\os_sem.crf --depend .\ouput\os_sem.d)
+I (..\uCOSII\includes.h)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\OS_TASK.C)(0x4297154C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_task.o --omf_browse .\ouput\os_task.crf --depend .\ouput\os_task.d)
+I (..\uCOSII\includes.h)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\OS_TIME.C)(0x3C51603C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_time.o --omf_browse .\ouput\os_time.crf --depend .\ouput\os_time.d)
+I (..\uCOSII\includes.h)(0x4D1A04B0)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\uCOSII\cpu\Os_cpu_c.c)(0x57F8542C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\os_cpu_c.o --omf_browse .\ouput\os_cpu_c.crf --depend .\ouput\os_cpu_c.d)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x5209A7DA)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x5209A7DA)
+I (..\uCOSII\cpu\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+F (..\Source\main.c)(0x58621A8C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\main.o --omf_browse .\ouput\main.crf --depend .\ouput\main.d)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x5209A7DA)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x5209A7DA)
+I (..\uCOSII\os_cpu.h)(0x4D1ABF5E)
+I (..\uCOSII\os_cfg.h)(0x57A991AA)
+I (..\uCOSII\ucos_ii.h)(0x3C51603C)
+I (..\Hardware\Uart0\uart.h)(0x57A99844)
+I (..\Hardware\Cmd_process\cmd_process.h)(0x5813251C)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\Hardware\EEPROM\E2PROM.h)(0x5811787B)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (..\Source\nxplpc11xx.h)(0x5811A837)
+F (..\Source\IRQ.C)(0x4DE23F50)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\irq.o --omf_browse .\ouput\irq.crf --depend .\ouput\irq.d)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x5209A7DA)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x5209A7DA)
+F (..\Source\nxplpc11xx.c)(0x5811A794)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\nxplpc11xx.o --omf_browse .\ouput\nxplpc11xx.crf --depend .\ouput\nxplpc11xx.d)
+I (..\Source\nxplpc11xx.h)(0x5811A837)
+F (..\Hardware\Uart0\uart.c)(0x58620984)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\uart.o --omf_browse .\ouput\uart.crf --depend .\ouput\uart.d)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x5209A7DA)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x5209A7DA)
+I (..\Hardware\Uart0\uart.h)(0x57A99844)
+F (..\Hardware\Cmd_process\cmd_process.c)(0x5861C8F0)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\cmd_process.o --omf_browse .\ouput\cmd_process.crf --depend .\ouput\cmd_process.d)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (..\Hardware\Cmd_process\cmd_process.h)(0x5813251C)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x5209A7DA)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x5209A7DA)
+I (..\Hardware\EEPROM\E2PROM.h)(0x5811787B)
+I (..\Hardware\Uart0\UART.h)(0x57A99844)
+I (..\uCOSII\OS_CPU.h)(0x4D1ABF5E)
+F (..\Hardware\EEPROM\E2PROM.c)(0x5810797A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\Hardware\Cmd_process -I..\Hardware\EEPROM -I..\Source-I "D:\Program Files\keil\ARM\RV31\INC"-I "D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\keil\ARM\Inc\NXP\LPC11xx"-o .\ouput\e2prom.o --omf_browse .\ouput\e2prom.crf --depend .\ouput\e2prom.d)
+I (..\Hardware\EEPROM\E2PROM.h)(0x5811787B)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x5209A7DA)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (D:\Program Files\keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x5209A7DA)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Program Files\keil\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)

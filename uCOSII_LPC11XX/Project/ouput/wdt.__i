@@ -1,0 +1,1 @@
+-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\uCOSII -I..\Hardware\Uart0 -I..\common\src -I d:\Keil\ARM\RV31\Inc -I d:\Keil\ARM\CMSIS\Include -I d:\Keil\ARM\Inc\NXP\LPC11xx -o ".\ouput\wdt.o" --omf_browse ".\ouput\wdt.crf" --depend ".\ouput\wdt.d" "..\common\src\wdt.c"
